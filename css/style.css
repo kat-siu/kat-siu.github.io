@@ -574,7 +574,7 @@ h1.arrow span {
 }
 /* ==========================================================================About========================================================================== */
 .about-image {
-	height:400px;
+	height:408px;
 	-webkit-background-size:cover;
 	-moz-background-size:cover;
 	-o-background-size:cover;
@@ -603,7 +603,7 @@ h1.arrow span {
   border-color: rgba(0, 0, 0, 0);
 }
 .about-text {
-	padding:20px 50px 25px 50px;
+	padding:0px 50px 25px 50px;
 }
 .about-text h1 {
 	text-transform:uppercase;
@@ -692,7 +692,7 @@ i.respons {
 .responsive-services {
 	position: relative;
 }
-/* ==========================================================================Portfolio========================================================================== */
+/* ==========================================================================Projects========================================================================== */
 .swag {
 	padding:75px 0;
 }
@@ -825,6 +825,12 @@ img.grayscale:hover {
 	margin-left:auto;
 	margin-right:auto;
 	top: 50px;
+}
+ul li {
+  color: white;
+  font-size: 14px;
+  font-weight: 100;
+  line-height: 28px!important;
 }
 /* ==========================================================================Subscribe========================================================================== */
 .subscribe {
@@ -974,9 +980,11 @@ ul.social-buttons li:last-child {
 .contact-wrap {
 	position:relative;
 }
-#googlemaps {
-	width:100%;
-	height:300px;
+#email-pic {
+  margin-top: -20px;
+}
+#email {
+  width: 86%;
 	left:15px;
 	bottom:25px;
 }

@@ -410,6 +410,9 @@ table {
 	font-weight:700;
 	padding-top: 0.5em;
 }
+.redux-icon{
+  margin-top: -34px;
+}
 /* Shown menu */
 .show-menu .content-wrap {
 	-webkit-transition-delay:0s;
